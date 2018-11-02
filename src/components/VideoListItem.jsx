@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const VideoListItem = ({ video, onVideoSelect }) => {
   const imgUrl = video.snippet.thumbnails.default.url;
@@ -11,9 +11,12 @@ const VideoListItem = ({ video, onVideoSelect }) => {
         </div>
         <div className="card__content pl-3">
           <h1 className="heading-sm">
-            <a href="javascript:void(0)" onClick={() => onVideoSelect(video)}>
+            <span
+              className="SelectPointer"
+              onClick={() => onVideoSelect(video)}
+            >
               {video.snippet.title}
-            </a>
+            </span>
           </h1>
         </div>
       </div>

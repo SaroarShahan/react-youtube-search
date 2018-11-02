@@ -1,0 +1,53 @@
+body {
+  font-size: 16px;
+}
+
+a {
+  color: #333;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:hover {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+.form-control {
+  border-radius: 2px;
+}
+.form-control::focus {
+  border-color: #17a2b8;
+  box-shadow: none;
+}
+
+.heading-sm {
+  font-size: 16px;
+}
+.heading-md {
+  font-size: 20px;
+}
+
+.SelectPointer {
+  cursor: pointer;
+}
+.SelectPointer:hover {
+  color: rgb(218, 18, 55);
+}
+
+.heart {
+  display: inline-block;
+  color: rgb(218, 18, 55);
+  margin: 0 5px;
+}
+
+.copyright {
+  font-size: 18px;
+}
+
+.copyright a {
+  display: inline-block;
+  color: #fff;
+  margin: 0 5px;
+}
+.copyright a:hover {
+  color: rgb(218, 18, 55);
+}

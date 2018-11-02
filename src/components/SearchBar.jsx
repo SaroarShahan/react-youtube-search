@@ -17,7 +17,9 @@ class SearchBar extends Component {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-md-3">
-              <a className="navbar-brand text-warning">YouTube Searcher</a>
+              <a href="/" className="navbar-brand text-warning">
+                YouTube Searcher
+              </a>
             </div>
             <div className="col-md-4">
               <input

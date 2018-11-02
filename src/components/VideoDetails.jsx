@@ -10,7 +10,11 @@ const VideoDetails = ({ video }) => {
     <div className="col-md-8">
       <div className="card">
         <div className="embed-responsive embed-responsive-16by9">
-          <iframe className="embed-responsive-item" src={url} />
+          <iframe
+            className="embed-responsive-item"
+            src={url}
+            title={video.snippet.id}
+          />
         </div>
         <div className="card-body">
           <h4 className="heading-md border-bottom pb-2 mb-4">

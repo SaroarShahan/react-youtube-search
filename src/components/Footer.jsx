@@ -8,7 +8,11 @@ const Footer = () => {
           <div className="col-md-6">
             <p className="copyright mb-0 text-white text-center">
               Made <span className="heart">&hearts;</span> by
-              <a target="_blank" href={"https:www.facebook.com/SaroarShahan"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https:www.facebook.com/SaroarShahan"}
+              >
                 Saroar Shahan
               </a>
             </p>
