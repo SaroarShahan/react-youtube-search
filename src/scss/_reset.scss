@@ -1,0 +1,20 @@
+body {
+  font-size: 16px;
+}
+
+a {
+  color: $black;
+  transition: all 0.3s ease-in-out 0s;
+  &:hover {
+    text-decoration: none;
+    color: $info;
+  }
+}
+
+.form-control {
+  border-radius: 2px;
+  &:focus {
+    border-color: $info;
+    box-shadow: none;
+  }
+}
