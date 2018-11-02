@@ -43,6 +43,5 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "youtube-search-lib": "^1.0.0"
-  },
-  "homepage": "https://saroarshahan.github.io/react-youtube-search"
+  }
 }
