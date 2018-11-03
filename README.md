@@ -20,7 +20,6 @@ npm run build
 ```
 
 ## Thanks
-- ReactJS
-- Bootstrap
-- Youtube Search Lib
-
+- [ReactJS](https://reactjs.org/)
+- [Bootstrap](http://getbootstrap.com/)
+- [Youtube Search Lib](https://www.npmjs.com/package/youtube-search-lib)
